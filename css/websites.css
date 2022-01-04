@@ -1,0 +1,171 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(102, 102, 102);
+}
+
+
+
+nav li{
+    display: inline;
+    margin: 20px;
+}
+
+nav ul {
+    background-color: darkred;
+    margin: 0;
+    list-style-type:none;
+    width: 98.9%;
+    padding: 10px;
+
+}
+
+nav{
+    display: block;
+    color: black
+}
+
+nav a{
+    color: white;
+    text-decoration:none;
+
+}
+
+nav a:hover{
+    color:#ff0202
+}
+
+.drop-websites{
+    position:absolute;
+    background-color: darkred;
+    list-style-type: none;
+    list-style-position: outside;
+    width:210px;
+    opacity: 0;
+    z-index: 2;
+    margin-left: 430px;
+    padding-left: 5px;
+}
+
+.drop-websites li{
+    color: white;
+}
+
+.websites:hover .drop-websites{
+    opacity: 1;
+}
+
+.drop-websites li{
+    padding-left: 0px;
+    display:block;
+}
+
+#web-header{
+    background-color: black;
+    margin:0px;
+    padding: 5px;
+}
+
+.web-title h1{
+    color: darkred;
+    text-align: center;
+}
+
+.web-title{
+    color: white;
+    text-align: center;
+}
+
+
+
+#NCT{
+    width: 45%;
+    float: left;
+    padding: 20px;
+    background-color: black;
+    border-radius: 5%;
+    margin:20px;
+    margin-right:0px;
+}
+
+
+
+.NCT-web h1{
+    color: darkred;
+}
+
+.NCT-web{
+    color: white;
+}
+
+#NCT1{
+    width: 850px;
+   }
+
+#BoE{
+    width: 45%;
+    float: right;
+    padding: 20px;
+    background-color: black;
+    border-radius: 5%;
+    margin:20px;
+}
+
+.BoE-web h1{
+    color: darkred;
+}
+
+.BoE-web{
+    color: white;
+}
+
+#BoE1{
+    width: 500px;
+}
+
+#DG{
+    width: 45%;
+    float: left;
+    padding: 20px;
+    background-color: black;
+    border-radius: 5%;
+    margin: 20px;
+    margin-right:0px;
+}
+
+.DG-web h1{
+    color: darkred;
+}
+
+.DG-web{
+    color: white;
+}
+
+#DG1{
+    width: 850px;
+}
+
+#AO{
+    width: 45%;
+    float: right;
+    padding: 20px;
+    background-color: black;
+    border-radius: 5%;
+    margin: 20px;
+}
+
+.AO-web h1{
+    color: darkred;
+}
+
+.AO-web{
+    color: white;
+}
+
+#AO1{
+    width: 850px;
+}
+

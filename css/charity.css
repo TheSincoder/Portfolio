@@ -1,0 +1,187 @@
+
+body, html{
+    height: 100%;
+    margin: 0px;
+    background-color: rgb(102, 102, 102);
+}
+
+
+nav li{
+    display: inline;
+    margin: 20px;
+}
+
+nav ul {
+    background-color: darkred;
+    margin: 0;
+    list-style-type:none;
+    width: 98.9%;
+    padding: 10px;
+
+}
+
+nav{
+    display: block;
+    color: black
+}
+
+nav a{
+    color: white;
+    text-decoration:none;
+
+}
+
+nav a:hover{
+    color:#ff0202
+}
+
+
+
+.drop-websites{
+    position:absolute;
+    background-color: darkred;
+    list-style-type: none;
+    list-style-position: outside;
+    width:210px;
+    opacity: 0;
+    z-index: 2;
+    margin-left: 430px;
+    padding-left: 5px;
+}
+
+.drop-websites li{
+    color: white;
+}
+
+.websites:hover .drop-websites{
+    opacity: 1;
+}
+
+.drop-websites li{
+    padding-left: 0px;
+    display:block;
+}
+
+
+nav li{
+    display: inline;
+    margin: 20px;
+}
+
+nav ul {
+    background-color: darkred;
+    margin: 0;
+    list-style-type:none;
+    width: 98.9%;
+    padding: 10px;
+
+}
+
+nav{
+    display: block;
+    color: black
+}
+
+nav a{
+    color: white;
+    text-decoration:none;
+
+}
+
+nav a:hover{
+    color:#ff0202
+}
+
+
+
+.drop-websites{
+    position:absolute;
+    background-color: darkred;
+    list-style-type: none;
+    list-style-position: outside;
+    width:210px;
+    opacity: 0;
+    z-index: 2;
+    margin-left: 430px;
+    padding-left: 5px;
+}
+
+.drop-websites li{
+    color: white;
+}
+
+.websites:hover .drop-websites{
+    opacity: 1;
+}
+
+.drop-websites li{
+    padding-left: 0px;
+    display:block;
+}
+
+
+
+nav{
+    background-color: black;
+    margin: 0px;
+}
+
+.title h1{
+    color:darkred;
+    padding: 20px;
+    font-size: 80px;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.title p{
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#eHealth-Cares{
+    background-color: black;
+    border-radius: 3%;
+    width: 47%;
+    padding: 20px;
+    float: left;
+}
+
+.eHealth h1{
+    color: darkred;
+    padding: 0px;
+}
+
+.eHealth p{
+    color: white;
+    padding: 0px;
+}
+
+#sub4santa{
+    width: 500px;
+}
+
+#Op-Abolitionist {
+    background-color: black;
+    border-radius: 3%;
+    width: 47%;
+    padding: 20px;
+    float: right;
+}
+
+.abolitionist h1{
+    color: darkred;
+    padding: 20px;
+}
+
+.abolitionist p{
+    color: white;
+    padding: 20px;
+}
+
+#op-abolitionist6{
+    width: 800px;
+    align-content: center;
+    padding-bottom: 25px;
+}
